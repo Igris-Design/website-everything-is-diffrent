@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+	background-color: rgba(246,207,192,1.00);
+}
+
+body {
+ 	margin: 0;
+	padding: 0;
+ 	font-family: 'Inter', "HelveticaNeue", "Helvetica Neue", "Helvetica, Arial", sans-serif;
+  	color: rgba(0,0,0,1.00);
+	height: 100%;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+ 	background-color: transparent;
+	text-decoration: none;
+	color: black;
+}
+
+a:active,
+a:visited{
+  	outline: 0;
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	cursor: default;
+}
+
+a:hover{
+  	outline: 0;
+	text-decoration: underline;
+	cursor: pointer;
+	color: white;
+}
+
+img {
+ 	border: 0;
+}
+
+/* === Navigation === */
+
+#nav {
+	padding-top: 1em;
+	max-height: 80px;
+	font-weight: 400;
+	font-size: 1.5em;
+	position: fixed;
+	width: 96%;
+	margin: 0 2%;
+	z-index: 1;
+}
+
+#about-link{
+	position: absolute; 
+	right: 0; 
+	top:0;
+}
+
+
+
+.container{
+	position: relative;
+	width: 96%;
+	margin: 0 auto;
+}
+
+/* === MAIN === */
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+#titel{
+	margin-top: -5%;
+	font-size: 12vw;
+	text-align: center;
+}
+
+#planet{
+	margin-top:-2%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+#planet img{
+	z-index: -1;
+	width: 50%;
+	height: 50%;
+	object-fit: contain;
+	opacity: 0.5;
+	mix-blend-mode: luminosity;
+}
+
+
+.who-we-are{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.who-we-are p{
+	font-size: 4vw;
+	text-align: center;
+}
+
+.video{
+	padding-top:15%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#contact{
+	font-size: 5vh;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact a{
+	margin-top:5%; 
+	border-radius: 40px;
+	border: 2px solid black;
+	padding: 0.7vw;
+}
+
+#contact a:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+/* === footer === */
+footer{
+	font-size: 1.5em;
+	padding-bottom: 1%;
+}
+
+.impressum-button{
+	position: absolute; 
+	bottom: 0; 
+	right: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	#nav {
+		font-size: 1.2em;
+	}
+	
+	#titel{
+		font-size: 15vw;
+	}
+	
+	#planet img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.who-we-are p{
+		font-size: 7vw;
+	}
+	
+	.container{
+		width: 98%;
+	}
+	
+	.video{
+		width: 90%;
+	}
+	
+	#contact{
+		font-size: 3vh;
+	}
+	
+	#contact a{
+		margin-top:30%;  
+	}
+	
+	footer{
+		font-size: 1.2em;
+		padding-bottom: 1%;
+	}
+}

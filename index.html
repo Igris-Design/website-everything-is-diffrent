@@ -98,27 +98,53 @@
 			  }, 2000);
 			});
 			
-			$('.write').mouseenter(function(){
-				$('html').css('background-image', 'url(kermet.gif)');
-				});
+			if ($(window).width() < 600) {
+				$('.write').mouseenter(function(){
+					$('html').css('background-image', 'url(kermet.gif)');
+					});
 			
-			$('.download').mouseenter(function(){
-				$('html').css('background-image', 'url(daumen-hoch.gif)');
+				$('.download').mouseenter(function(){
+					$('html').css('background-image', 'url(daumen-hoch.gif)');
+					});
+
+				$('.upload').mouseenter(function(){
+					$('html').css('background-image', 'url(upload.gif)');
+					});
+
+				$('.write, .download, .upload').mouseenter(function(){
+					$('html').css('background-size', '100% auto');
+					$('html').css('background-attachment', 'fixed');
+					
+					setTimeout(function() {
+						$('html').css('background-attachment', 'scroll');
+						$('html').css('background-size', 'auto');
+						$('html').css('background-image', 'none');
+					}, 3000);
 				});
-			
-			$('.upload').mouseenter(function(){
-				$('html').css('background-image', 'url(upload.gif)');
+			}
+			else{
+				$('.write').mouseenter(function(){
+					$('html').css('background-image', 'url(kermet.gif)');
+					});
+
+				$('.download').mouseenter(function(){
+					$('html').css('background-image', 'url(daumen-hoch.gif)');
+					});
+
+				$('.upload').mouseenter(function(){
+					$('html').css('background-image', 'url(upload.gif)');
+					});
+
+				$('.write, .download, .upload').mouseenter(function(){
+					$('html').css('background-size', '100% auto');
+					$('html').css('background-attachment', 'fixed');
+					})     
+				.mouseleave(function() {
+					$('html').css('background-attachment', 'scroll');
+					$('html').css('background-size', 'auto');
+					$('html').css('background-image', 'none');
 				});
-			
-			$('.write, .download, .upload').mouseenter(function(){
-				$('html').css('background-size', '100% auto');
-				$('html').css('background-attachment', 'fixed');
-				})     
-			.mouseleave(function() {
-				$('html').css('background-attachment', 'scroll');
-				$('html').css('background-size', 'auto');
-				$('html').css('background-image', 'none');
-			});
+			};
 		});
 	</script>
 	

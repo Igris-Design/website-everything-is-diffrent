@@ -68,6 +68,11 @@ img {
 	z-index: 1;
 }
 
+#kisd{
+	font-family: myriad-pro-semi-condensed, sans-serif;
+	font-weight: 700;
+}
+
 #about-link{
 	position: absolute; 
 	right: 0; 

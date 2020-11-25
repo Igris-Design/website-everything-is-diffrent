@@ -71,6 +71,21 @@
 		<a href="mailto:KISD.EVERYTHING@gmail.com" class="write" title="Click to open a E-Mail window">Write us if you got any questions</a>
 	</div>
 	
+	<div id="faq" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1500">
+		<p class="headline">FAQ</p>
+		<div class="inner_faq">
+			<p class="frage frage1 active" style="border-top: 1px solid black;">What happens with my data?</p>
+			<div class="antwort open1">
+				<p>Ich hab keine Ahnung</p>
+			</div>
+			
+			<p class="frage frage2 active">Do you have another question?</p>
+			<div class="antwort open2">
+				<p>Write us! <a href="mailto:KISD.EVERYTHING@gmail.com">KISD.EVERYTHING@gmail.com</a></p>
+			</div>
+		</div>
+	</div>
+	
 	<footer id="contact" style="position: relative; bottom: 0" >
 		<div class="container">
 			<section class="impressum-button">
@@ -149,6 +164,14 @@
 					$('html').css('background-image', 'none');
 				});
 			};
+			
+			//============================= FAQ Öffnen/Schließen ========================
+			
+			$(".antwort").slideUp();
+			$(".frage").click(function(){
+				$(this).next(".antwort").slideToggle(100);
+				$(this).toggleClass("active");
+			});
 		});
 	</script>
 	

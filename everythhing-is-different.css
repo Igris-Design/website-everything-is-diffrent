@@ -55,6 +55,13 @@ img {
  	border: 0;
 }
 
+.headline{
+	font-size: 4vw;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 8%;
+}
+
 /* === Navigation === */
 
 #nav {

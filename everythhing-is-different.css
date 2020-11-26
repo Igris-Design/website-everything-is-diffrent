@@ -194,7 +194,8 @@ header {
   margin-top: 5%;
   border-radius: 40px;
   border: 2px solid rgb(34, 34, 34);
-  padding: 0.7vw;
+  padding: 1.2vw;
+  font-size: 3vh;
 }
 
 .write:hover {
@@ -221,13 +222,6 @@ header {
   justify-content: center;
   align-items: center;
   padding-bottom: 10%;
-
-}
-
-.email_link {
-  text-decoration: underline;
-  font-size: 3vh;
-
 }
 
 .first_faq
@@ -327,15 +321,13 @@ footer {
   .contact a {
     margin-top: 30%;
     width:90vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   .email_container {
-
     margin-top:10%;
     margin-bottom: 5%;
-    
   }
 
   footer {

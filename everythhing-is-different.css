@@ -334,6 +334,8 @@ footer {
 
   .contact {
     font-size: 3vh;
+    width:90vw;
+    margin: 0 auto;
   }
 
   .contact a {

@@ -81,7 +81,11 @@ img {
 
 .logo-kisd_headline {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.3em;
+}
+
+.logo-kisd_headline:hover {
+  text-decoration: none;
 }
 
 .logo-kisd__subline {
@@ -169,7 +173,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: red; */
   margin-top: 10%;
 }
 
@@ -185,26 +188,6 @@ header {
   background-color: white;
   text-decoration: none;
 }
-
-/*
-.download {
-  margin-top: 5%;
-  border-radius: 40px;
-  border: 2px solid black;
-  padding: 0.7vw;
-  font-size: 5vh;
-}
-
-.download:hover {
-  color: black;
-  background-color: white;
-  text-decoration: none;
-}
-
-.upload {
-  font-size: 5rem;
-}
-*/
 
 .write {
   margin-top: 5%;
@@ -336,7 +319,8 @@ footer {
 
   .contact {
     font-size: 3vh;
-
+    margin-top: 20%;
+    margin-bottom: 20%;
   }
 
   .contact a {

@@ -75,9 +75,20 @@ img {
   z-index: 1;
 }
 
-#kisd {
+.kisd-logo{
   font-family: myriad-pro-semi-condensed, sans-serif;
+}
+
+.logo-kisd_headline {
   font-weight: 700;
+  font-size: 1.8em;
+}
+
+.logo-kisd__subline{
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.2em;
 }
 
 #about-link {

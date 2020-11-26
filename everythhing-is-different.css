@@ -304,7 +304,6 @@ footer {
   .frage {
     font-size: 2vh;
     padding: 4.5% 4%;
-
   }
 
   .antwort {
@@ -315,7 +314,7 @@ footer {
   .contact {
     font-size: 3vh;
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
 
   .contact a {

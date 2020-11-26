@@ -85,7 +85,7 @@ img {
 }
 
 .logo-kisd_headline:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .logo-kisd__subline {

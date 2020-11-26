@@ -315,6 +315,8 @@ footer {
 
   .upload {
     font-size: 3rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .inner_faq {
@@ -340,6 +342,8 @@ footer {
   .contact a {
     margin-top: 30%;
     width:90vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .email_container {

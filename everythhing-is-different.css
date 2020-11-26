@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Inter", "poppins", "Helvetica, Arial", sans-serif;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(34, 34, 34);
   height: 100%;
   padding: 0;
   margin: 0;
@@ -33,13 +33,13 @@ p {
 a {
   background-color: transparent;
   text-decoration: none;
-  color: black;
+  color: rgb(34, 34, 34);
 }
 
 a:active,
 a:visited {
   outline: 0;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(34, 34, 34);
   text-decoration: none;
   cursor: default;
 }
@@ -75,18 +75,18 @@ img {
   z-index: 1;
 }
 
-.kisd-logo{
+.kisd-logo {
   font-family: myriad-pro-semi-condensed, sans-serif;
 }
 
 .logo-kisd_headline {
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
-.logo-kisd__subline{
+.logo-kisd__subline {
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 0.7em;
   font-weight: 400;
   line-height: 1.2em;
 }
@@ -150,7 +150,7 @@ header {
 }
 
 .who-we-are p {
-  font-size: 3vw;
+  font-size: 2.8vw;
   text-align: center;
   line-height: 1.5em;
 }
@@ -176,12 +176,12 @@ header {
 .contact a {
   margin-top: 5%;
   border-radius: 60px;
-  border: 2px solid black;
+  border: 2px solid rgb(34, 34, 34);
   padding: 0.7vw;
 }
 
 .contact a:hover {
-  color: black;
+  color: rgb(34, 34, 34);
   background-color: white;
   text-decoration: none;
 }
@@ -209,25 +209,22 @@ header {
 .write {
   margin-top: 5%;
   border-radius: 40px;
-  border: 2px solid black;
+  border: 2px solid rgb(34, 34, 34);
   padding: 0.7vw;
 }
 
 .write:hover {
-  color: black;
+  color: rgb(34, 34, 34);
   background-color: white;
   text-decoration: none;
 }
 
 /* === faq === */
-#faq {
-  font-size: 5vh;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.faq {
+  font-size: 3vh;
+  text-align: left;
+  width: 100%;
+  margin-top: 15%;
 }
 
 .inner_faq {
@@ -235,25 +232,38 @@ header {
   margin: 0 auto;
 }
 
+.email_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+
+}
+
 .email_link {
-  margin-top: 10%;
   text-decoration: underline;
   font-size: 3vh;
+
+}
+
+.first_faq
+{
+  border-top: 1px solid rgb(34, 34, 34);
 }
 
 .active {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(34, 34, 34);
 }
 
 .antwort {
-  border-bottom: 1px solid black;
-  font-size: 3vh;
-  padding: 2% 0;
+  border-bottom: 1px solid rgb(34, 34, 34);
+  font-size: 2.5vh;
+  padding: 2%;
 }
 
 .frage {
   cursor: pointer;
-  padding: 1% 0;
+  padding: 2%;
 }
 
 /* === footer === */
@@ -277,8 +287,8 @@ footer {
     font-size: 15vw;
   }
 
-  .headline{
-	  font-size: 4vh;
+  .headline {
+    font-size: 4vh;
   }
 
   #planet img {
@@ -287,7 +297,7 @@ footer {
   }
 
   .who-we-are p {
-    font-size: 7vw;
+    font-size: 4.5vw;
   }
 
   .download {
@@ -304,27 +314,23 @@ footer {
   }
 
   .upload {
-	font-size: 3rem;
+    font-size: 3rem;
   }
 
-
-
-  .inner_faq
-  {
-	  width: 100%;
+  .inner_faq {
+    width: 100%;
   }
 
-  .frage
-  {
-	  font-size: 3vh;
+  .frage {
+    font-size: 2vh;
+    padding: 4.5% 4%;
+
   }
-  
-  .antwort 
-  {
-	  font-size: 2vh;
+
+  .antwort {
+    font-size: 1.7vh;
+    padding-left: 4%;
   }
-  
-  
 
   .contact {
     font-size: 3vh;
@@ -334,10 +340,17 @@ footer {
     margin-top: 30%;
   }
 
+  .email_container {
 
+    margin-top:10%;
+    margin-bottom: 5%;
+    
+  }
 
   footer {
     font-size: 1.2em;
     padding-bottom: 1%;
   }
+
+
 }

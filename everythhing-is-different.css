@@ -79,13 +79,13 @@ img {
   font-family: myriad-pro-semi-condensed, sans-serif;
 }
 
+.kisd-logo:hover {
+  text-decoration: none !important;
+}
+
 .logo-kisd_headline {
   font-weight: 700;
   font-size: 1.3em;
-}
-
-.logo-kisd_headline:hover {
-  text-decoration: none !important;
 }
 
 .logo-kisd__subline {

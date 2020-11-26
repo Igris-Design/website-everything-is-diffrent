@@ -172,9 +172,6 @@ header {
   /* background: red; */
   margin-top: 10%;
 }
-.upload {
-  font-size: 5rem;
-}
 
 .contact a {
   margin-top: 5%;
@@ -189,6 +186,7 @@ header {
   text-decoration: none;
 }
 
+/*
 .download {
   margin-top: 5%;
   border-radius: 40px;
@@ -196,6 +194,17 @@ header {
   padding: 0.7vw;
   font-size: 5vh;
 }
+
+.download:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.upload {
+  font-size: 5rem;
+}
+*/
 
 .write {
   margin-top: 5%;
@@ -205,12 +214,6 @@ header {
 }
 
 .write:hover {
-  color: black;
-  background-color: white;
-  text-decoration: none;
-}
-
-.download:hover {
   color: black;
   background-color: white;
   text-decoration: none;

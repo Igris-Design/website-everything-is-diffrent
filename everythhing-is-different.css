@@ -75,11 +75,15 @@ img {
   z-index: 1;
 }
 
-.nav-punkt
+.nav-wrap
 {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
   padding-right: 1%;
+}
+
+nav-punkt{
+float:left;
 }
 
 .result-nav

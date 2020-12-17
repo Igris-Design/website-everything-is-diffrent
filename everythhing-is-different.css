@@ -75,6 +75,19 @@ img {
   z-index: 1;
 }
 
+.nav-punkt
+{
+  display: flex;
+  flex-direction: row;
+  padding-right: 1%;
+}
+
+.result-nav
+{
+  padding-left: 10%;
+}
+
+
 .kisd-logo {
   font-family: myriad-pro-semi-condensed, sans-serif;
 }
@@ -164,6 +177,7 @@ header {
   padding-top: 20%;
   width: 60%;
   margin: 0 auto;
+  height: 100%;
 }
 
 .contact {
@@ -204,6 +218,11 @@ header {
   text-decoration: none;
 }
 
+.map
+{
+  margin-top: 10%;
+}
+
 /* === faq === */
 .faq {
   font-size: 3vh;
@@ -221,8 +240,27 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 50%;
   padding-bottom: 10%;
 }
+
+.experience
+{ 
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.experience p 
+{
+  font-size: 2vw;
+  text-align: center;
+  line-height: 1.5em;
+  width: 80%;
+}
+
 
 .first_faq
 {
